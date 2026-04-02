@@ -50,11 +50,11 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
 
   const adminLogin = async (email: string, password: string): Promise<boolean> => {
     // Mock admin credentials
-    if (email === 'admin@shopstyle.com' && password === 'admin123') {
+    if (email === 'admin@slaybox.com' && password === 'slay123') {
       const adminUser: User = {
         id: 'admin',
         name: 'Admin',
-        email: 'admin@shopstyle.com',
+        email: 'admin@slaybox.com',
         phone: '',
         addresses: [],
       };
